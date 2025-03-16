@@ -1,0 +1,102 @@
+﻿<Window x:Class="PozeraczeV4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PozeraczeV4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#202020">
+        <Grid x:Name="Start">
+            <StackPanel Orientation="Vertical">
+                <Label Content="Pożeracze" VerticalAlignment="Top" HorizontalAlignment="Center" Background="#252525"  Foreground="white" FontSize="32px"/>
+
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Center">
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="Gracz1" Width="130px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Background="#252525" Margin="0, 0, 70, 0" Foreground="white"/>
+
+
+                        <ComboBox x:Name="kolorGracza1" Width="130" Height="20px" IsReadOnly="True" IsEditable="True" Margin="0, 0, 70, 0" >
+                            <ComboBoxItem Content="Niebieski"/>
+                            <ComboBoxItem Content="Pomarańczowy"/>
+                            <ComboBoxItem Content="Różowy"/>
+                            <ComboBoxItem Content="Fioletowy"/>
+                        </ComboBox>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="Rozmiar Planszy" Width="100px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#252525"  Foreground="white"/>
+
+                        <TextBox x:Name="TextBoxRozmiarPlanszy" Width="100px" Height="20" />
+                        <Button  Content="Start" Click="Button_Click" Width="100px" Height="50px" Background="#252525"  Foreground="white"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <Label Content="Gracz 2" Width="130px" Height="30px" HorizontalContentAlignment="Center" Margin="70, 0, 0, 0" Background="#252525"  Foreground="white"/>
+
+                        <ComboBox x:Name="kolorGracza2" Width="130px" Height="20px" IsReadOnly="True" IsEditable="True" Margin="70, 0, 0, 0">
+                            <ComboBoxItem Content="Niebieski"/>
+                            <ComboBoxItem Content="Pomarańczowy"/>
+                            <ComboBoxItem Content="Różowy"/>
+                            <ComboBoxItem Content="Fioletowy"/>
+                        </ComboBox>
+                    </StackPanel>
+                </StackPanel>
+                <Label x:Name="miejsceNaWynki" Width="400px" Height="250px" Background="#252525" Foreground="white"/>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="Gra" Visibility="Collapsed">
+             <Label x:Name="ktoGra" Content="Tura gracza 1" VerticalAlignment="Top" HorizontalAlignment="Center" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Width="80" Height="30px" Background="#252525" Foreground="white"/>
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                    <Label x:Name="gracz1" Content="Gracz 1" Width="140px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#252525" Foreground="white"/>
+                    <Label x:Name="pokazKolorGracza1" Width="140px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#252525" Foreground="white"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Pozostałe Małe: " Width="110px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Background="#252525" Foreground="white"/>
+                        <Label x:Name="pozostaleMaleGracz1" Content="x" Width="30px" Height="30px" Background="#252525" Foreground="white"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Pozostałe Średnie: " Width="110px" Height="30px"   Background="#252525" Foreground="white"/>
+                        <Label x:Name="pozostaleSrednieGracz1" Content="x" Width="30px" Height="30px"  Background="#252525" Foreground="white"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Pozostałe Duże: " Width="110px" Height="30px" Background="#252525" Foreground="white"/>
+                        <Label x:Name="pozostaleDuzeGracz1" Content="x" Width="30px" Height="30px" Background="#252525" Foreground="white"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Vertical">
+                    <Canvas x:Name="miejsceNaPlansze" Width="300px" Height="300px" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#252525" Width="300px">
+                        <RadioButton x:Name="maly" Content="Mały" GroupName="rozmiar" HorizontalAlignment="Center" Foreground="White"/>
+                        <RadioButton x:Name="sredni"  Content="Średni" GroupName="rozmiar" HorizontalAlignment="Center" Foreground="White"/>
+                        <RadioButton x:Name="duzy" Content="Duzy" GroupName="rozmiar" HorizontalAlignment="Center" Foreground="White"/>
+                    </StackPanel>
+                    <Button  Content="Reset" Click="reset_Click" Width="100px" Height="30px" Background="#252525" Margin="0, 10, 0, 0"  Foreground="white"/>
+                </StackPanel>
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                    <Label x:Name="gracz2" Content="Gracz 2" Width="140px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#252525" Foreground="white"/>
+                    <Label x:Name="pokazKolorGracza2" Width="140px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#252525" Foreground="white"/>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Pozostałe Małe: " Width="110px" Height="30px" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Background="#252525" Foreground="white"/>
+                        <Label x:Name="pozostaleMaleGracz2" Content="x" Width="30px" Height="30px" Background="#252525" Foreground="white"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Pozostałe Średnie: " Width="110px" Height="30px"   Background="#252525" Foreground="white"/>
+                        <Label x:Name="pozostaleSrednieGracz2" Content="x" Width="30px" Height="30px"  Background="#252525" Foreground="white"/>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                        <Label Content="Pozostałe Duże: " Width="110px" Height="30px" Background="#252525" Foreground="white"/>
+                        <Label x:Name="pozostaleDuzeGracz2" Content="x" Width="30px" Height="30px" Background="#252525" Foreground="white"/>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="zwyciestwo" Visibility="Collapsed">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center">
+                <Label x:Name="zwyciezca" Content="Zwyciężył gracz: " FontSize="32px" Background="#252525" Foreground="white"/>
+                <Label x:Name="czas" Content="Rozgrywka trwała: " FontSize="32px" Background="#252525" Foreground="white"/>
+                <Button  Content="Reset" Click="reset_Click" Width="100px" Height="30px" Background="#252525" Margin="0, 10, 0, 0"  Foreground="white"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

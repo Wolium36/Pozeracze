@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|c:\\users\\lukas\\desktop\\pozeraczev4\\pozeraczev4\\gracz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|solutionrelative:pozeraczev4\\gracz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|c:\\users\\lukas\\desktop\\pozeraczev4\\pozeraczev4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|solutionrelative:pozeraczev4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|c:\\users\\lukas\\desktop\\pozeraczev4\\pozeraczev4\\plansza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|solutionrelative:pozeraczev4\\plansza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|c:\\users\\lukas\\desktop\\pozeraczev4\\pozeraczev4\\pole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|solutionrelative:pozeraczev4\\pole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|c:\\users\\lukas\\desktop\\pozeraczev4\\pozeraczev4\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A360ABC-005D-40DF-9DA4-CFFA5392876E}|PozeraczeV4\\PozeraczeV4.csproj|solutionrelative:pozeraczev4\\gamelogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plansza.cs",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\Plansza.cs",
+              "RelativeDocumentMoniker": "PozeraczeV4\\Plansza.cs",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\Plansza.cs",
+              "RelativeToolTip": "PozeraczeV4\\Plansza.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:00:42.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Gracz.cs",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\Gracz.cs",
+              "RelativeDocumentMoniker": "PozeraczeV4\\Gracz.cs",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\Gracz.cs",
+              "RelativeToolTip": "PozeraczeV4\\Gracz.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T18:00:12.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pole.cs",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\Pole.cs",
+              "RelativeDocumentMoniker": "PozeraczeV4\\Pole.cs",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\Pole.cs",
+              "RelativeToolTip": "PozeraczeV4\\Pole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:52:54.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PozeraczeV4\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PozeraczeV4\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAgwDgAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T20:02:01.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameLogic.cs",
+              "DocumentMoniker": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\GameLogic.cs",
+              "RelativeDocumentMoniker": "PozeraczeV4\\GameLogic.cs",
+              "ToolTip": "C:\\Users\\lukas\\Desktop\\PozeraczeV4\\PozeraczeV4\\GameLogic.cs",
+              "RelativeToolTip": "PozeraczeV4\\GameLogic.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T17:53:01.757Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
